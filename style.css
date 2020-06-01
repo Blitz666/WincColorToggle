@@ -1,0 +1,97 @@
+body {
+  background-color: lightslategrey;
+}
+
+.toggle-nav-btn {
+  cursor: pointer;
+}
+
+.nav-main {
+  position: relative;
+  display: inline-block;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.menu.open {
+  display: block;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  max-width: 250px;
+}
+
+ul li {
+  padding: 1rem 1.2rem;
+  border-width: 1px 2px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  cursor: pointer;
+}
+
+.orange {
+  color: black;
+  background-color: orange;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.blue {
+  color: white;
+  background-color: blue;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.red {
+  color: black;
+  background-color: red;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.green {
+  color: black;
+  background-color: green;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.purple {
+  color: white;
+  background-color: purple;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.menu li:hover {
+  background-color: #f1f1f1;
+}
+
+.menu .orange:hover {
+  color: orange;
+  background-color: #f1f1f1;
+}
+
+.menu .blue:hover {
+  color: blue;
+  background-color: #f1f1f1;
+}
+
+.menu .red:hover {
+  color: red;
+  background-color: #f1f1f1;
+}
+
+.menu .green:hover {
+  color: green;
+  background-color: #f1f1f1;
+}
+
+.menu .purple:hover {
+  color: purple;
+  background-color: #f1f1f1;
+}
